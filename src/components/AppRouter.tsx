@@ -2,6 +2,7 @@ import React from 'react';
 import {Switch, Route, Redirect} from 'react-router-dom';
 import {privateRoutes, publicRoutes, RouteNames} from "../router";
 import {useTypedSelector} from "../hooks/useTypedSelector";
+import DayDescription from '../pages/DayDescription';
 
 const AppRouter = () => {
     const {isAuth} = useTypedSelector(state => state.auth);

@@ -44,6 +44,8 @@ const Event: FC = () => {
                     submit={addNewEvent}
                 />
             </Modal>
+
+            
         </Layout>
     );
 };
